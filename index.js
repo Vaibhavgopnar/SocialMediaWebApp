@@ -1,21 +1,27 @@
 
+// Left Sidebar
 const menuItems = document.querySelectorAll('.menu-item');
 
+// Notifications popup
 const messagesNotification = document.querySelector('#messages-nitifications');
 
+// Messages Section
 const messages = document.querySelector('.messages');
 const message = messages.querySelectorAll('.message');
 const messageSearch = document.querySelector('#message-search');
 
-
+// Thean Customization
 const theme = document.querySelector('#theme');
 const themeModal = document.querySelector('.customize-theme');
 
+// Font sizes
 const fontSizes = document.querySelectorAll('.choose-size span');
 const root = document.querySelector(':root');
 
+// Color changes
 const colorPalette = document.querySelectorAll('.choose-color span');
 
+// Background  
 const Bg1 = document.querySelector('.bg-1');
 const Bg2 = document.querySelector('.bg-2');
 const Bg3 = document.querySelector('.bg-3');
